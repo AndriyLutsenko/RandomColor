@@ -11,13 +11,6 @@ class HomeScreenState extends State<HomeScreen> {
   Color? pageColor;
   Color? textColor;
 
-  // @override
-  // void initState() {
-  //   super.initState();
-  //   pageColor = const Color.fromARGB(255, 255, 255, 255);
-  //   textColor = const Color.fromARGB(255, 0, 0, 0);
-  // }
-
   int randomNumber(int num) {
     var random = Random();
     int randomNumber = random.nextInt(num);
