@@ -18,12 +18,12 @@ class HomeScreenState extends State<HomeScreen> {
   //   textColor = const Color.fromARGB(255, 0, 0, 0);
   // }
 
-  int randomNumber(int num) {
-    var random = Random();
-    int randomNumber = random.nextInt(num);
-    // print(randomNumber);
-    return randomNumber;
-  }
+  // int randomNumber(int num) {
+  //   var random = Random();
+  //   int randomNumber = random.nextInt(num);
+  //   // print(randomNumber);
+  //   return randomNumber;
+  // }
 
   void randomPageColor() {
     setState(() {
