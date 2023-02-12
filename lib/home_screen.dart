@@ -11,24 +11,9 @@ class HomeScreenState extends State<HomeScreen> {
   Color? pageColor;
   Color? textColor;
 
-  // @override
-  // void initState() {
-  //   super.initState();
-  //   pageColor = const Color.fromARGB(255, 255, 255, 255);
-  //   textColor = const Color.fromARGB(255, 0, 0, 0);
-  // }
-
-  // int randomNumber(int num) {
-  //   var random = Random();
-  //   int randomNumber = random.nextInt(num);
-  //   // print(randomNumber);
-  //   return randomNumber;
-  // }
-
   void randomPageColor() {
     setState(() {
       pageColor = Color.fromARGB(
-          // 255, randomNumber(256), randomNumber(256), randomNumber(256));
           255,
           Random().nextInt(256),
           Random().nextInt(256),
@@ -39,7 +24,6 @@ class HomeScreenState extends State<HomeScreen> {
   void randomTextColor() {
     setState(() {
       textColor = Color.fromARGB(
-          //  255, randomNumber(256), randomNumber(256), randomNumber(256));
           255,
           Random().nextInt(256),
           Random().nextInt(256),
